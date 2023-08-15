@@ -21,6 +21,14 @@
 
 #### @Injectable() providedIn property is preferable to using the @NgModule() providers array because of optimization tools can perform tree-shaking
 
+<br/><br/>
 
+#### root ModuleInjector (configured by MyApp)
+#### ModuleInjector (configured by PlatformModule)
+#### NullInjector
+
+<br/><br/>
+
+#### 
 
 
