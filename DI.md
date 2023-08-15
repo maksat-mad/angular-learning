@@ -9,11 +9,12 @@
 ### Angular provides assertInInjectionContext helper function to assert that the current context is an injection context
 ### Calling inject or calling assertInInjectionContext outside of an injection context will throw error NG0203
 
----
-
 ### Types of injector hierarchies (ModuleInjector, ElementInjector)
 ### ModuleInjector: @NgModule() or @Injectable()
 ### ElementInjector: providers property on @Directive() or @Component(), empty by default
+
+#### @Injectable() providedIn property is preferable to using the @NgModule() providers array
+#### because of optimization tools can perform tree-shaking
 
 
 
