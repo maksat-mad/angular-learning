@@ -5,13 +5,13 @@
 ##### Can't use interface as provider token
 ##### Can't inject using the interface as the parameter type
 
-<br><br>
+<br/><br/>
 
 #### Injection context
 #### Angular provides assertInInjectionContext helper function to assert that the current context is an injection context
 #### Calling inject or calling assertInInjectionContext outside of an injection context will throw error NG0203
 
-<br><br>
+<br/><br/>
 
 #### Types of injector hierarchies (ModuleInjector, ElementInjector)
 #### ModuleInjector: @NgModule() or @Injectable()
