@@ -29,6 +29,7 @@
 
 <br/><br/>
 
-#### 
+#### Resolution modifiers (@Optional(), @Self(), @SkipSelf() and @Host())
+
 
 
