@@ -17,10 +17,9 @@
 #### ModuleInjector: @NgModule() or @Injectable()
 #### ElementInjector: providers property on @Directive() or @Component(), empty by default
 
-<br><br>
+<br/><br/>
 
-#### @Injectable() providedIn property is preferable to using the @NgModule() providers array
-#### because of optimization tools can perform tree-shaking
+#### @Injectable() providedIn property is preferable to using the @NgModule() providers array because of optimization tools can perform tree-shaking
 
 
 
