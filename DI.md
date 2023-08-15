@@ -29,6 +29,8 @@
 
 <br/><br/>
 
+#### ViewProviders are similar to Providers except that the dependencies that you define are visible only to its view children. They are not visible to the Content children
+
 #### Resolution modifiers (@Optional(), @Self(), @SkipSelf() and @Host())
 
 
