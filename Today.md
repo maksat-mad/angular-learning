@@ -3,9 +3,10 @@
 #### 3. providedIn: root, any, platform
 #### 4. Bootstrap (layout, grid, css grid, utilities)
 
-
+```js
 export const heroServiceProvider =
   { provide: HeroService,
     useFactory: heroServiceFactory,
     deps: [Logger, UserService]
   };
+```
